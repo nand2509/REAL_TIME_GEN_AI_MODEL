@@ -8,7 +8,7 @@
 # from werkzeug.utils import secure_filename
 #
 # # Configure the generative AI model
-# genai.configure(api_key="AIzaSyBH9pjDICFfC4RqNF2luI86P1LVlLyCF78")  # Replace with your actual API key
+# genai.configure(api_key=" ")  # Replace with your actual API key
 # model = genai.GenerativeModel("gemini-1.5-flash")
 #
 # # Streamlit app configuration
@@ -106,7 +106,7 @@ from PyPDF2 import PdfReader
 from werkzeug.utils import secure_filename
 
 # Configure the generative AI model
-genai.configure(api_key="AIzaSyBH9pjDICFfC4RqNF2luI86P1LVlLyCF78")  # Replace with your actual API key
+genai.configure(api_key=" ")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Streamlit app configuration
