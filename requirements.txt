@@ -1,0 +1,8 @@
+streamlit==1.18.1            # For building the web application interface
+google-generativeai==0.1.0    # For accessing generative AI models (update version as needed)
+pytesseract==0.3.8            # For optical character recognition
+Pillow==9.2.0                 # For image processing
+PyPDF2==3.0.0                 # For reading PDF files
+pandas==1.5.3                 # For data manipulation and analysis
+openpyxl==3.0.10              # For reading and writing Excel (XLSX) files
+werkzeug==2.2.2               # For secure file uploads
