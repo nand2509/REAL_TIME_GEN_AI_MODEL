@@ -2,7 +2,7 @@
 # import google.generativeai as genai
 #
 # # Configure the generative AI model
-# genai.configure(api_key="AIzaSyBH9pjDICFfC4RqNF2luI86P1LVlLyCF78")
+# genai.configure(api_key=" ")
 # model = genai.GenerativeModel("gemini-1.5-flash")
 #
 # app = Flask(__name__)
@@ -77,7 +77,7 @@ import pytesseract
 from PIL import Image
 
 # Configure the generative AI model
-genai.configure(api_key="AIzaSyBH9pjDICFfC4RqNF2luI86P1LVlLyCF78")
+genai.configure(api_key=" ")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
